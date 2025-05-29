@@ -66,7 +66,7 @@
 
 
 .class-inicio {
-  background-image: url(/Imagenes/fondo_inicio.JPG);
+  background-image: url(../Imagenes/fondo_inicio.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
