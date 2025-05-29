@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/estilo.css" />
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    
+    <title>Contacto - Tienda de VelaS</title>
+</head>
+
+<!-- Web de contacto con el formulario-->
+<body>
+
+    <div class="class-contacto"> 
+
+        <div class="class-contacto-formulario overlock-regular">   <!-- le da estilo al formulario completo de contacto.-->
+            
+            <h2>Formulario de Contacto</h2>  <!-- el titulo del formulario-->
+            <form action="https://formspree.io/f/meogbvbb"  method="POST">  <!-- creo el formularo con la accion POST para enviar los datos en el evento SUBMIT del boton-->
+                <label form="nombre">Nombre</label> 
+                <input type="text" id="contacto_nombre" name="contacto_nombre" placeholder="Su nombre..">
+
+                <label form="email">Correo</label>
+                <input type="email" id="contacto_email" name="contacto_email" placeholder="Su correo electrónico..">
+
+                <label form="consulta">Consulta</label>
+                <textarea id="consulta" name="consulta" placeholder="Su consulta.." style="height:200px"></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    
+        <div class="class-contacto-mapa overlock-regular" >
+            <h2 class="overlock-regular"><b> Nuestras Oficinas  </b></h2>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4239.349545161572!2d-93.30176697313874!3d37.24951536618356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87cf6280740a49f5%3A0x58b047bd968e73d3!2s742%20W%20Evergreen%20St%2C%20Springfield%2C%20MO%2065803%2C%20USA!5e0!3m2!1sen!2sar!4v1748371628685!5m2!1sen!2sar" 
+                style="border:1;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            
+             
+            <table class="class-contacto-direccion-tabla" >
+                <tr>
+                    <th><i class="fa-solid fa-location-dot"></i></th>
+                    <th>Av. Siempreviva 742</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Springfield, USA</td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <th>PO. BOX. 4562</th>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-phone"></i></td>
+                    <td>1-800-555-6644</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-brands fa-whatsapp"></i></td>
+                    <td>+1-658-5212-5645</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</body>
+</html>

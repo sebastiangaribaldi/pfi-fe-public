@@ -1,0 +1,375 @@
+
+
+/* Fuentes Google */
+.overlock-regular {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.overlock-bold {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+}
+
+.overlock-black {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.overlock-regular-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.overlock-bold-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.overlock-black-italic {
+  font-family: "Overlock", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+.class-index-header-contenedor {
+  background-color: #0078d4; 
+  color: white;
+  padding: 10px; 
+  width: 100%;
+    margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.class-index-menu {
+  display: flex; 
+  list-style: none; 
+  padding: 0;
+  margin: 0;
+  justify-content: space-around; 
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.class-index-menu li a {
+  color: white; 
+  text-decoration: none; 
+}
+
+
+.class-inicio {
+  background-image: url(/Imagenes/fondo_inicio.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+
+.class-inicio-texto {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin-top: 100px;
+
+
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 40px;
+
+}
+
+/* 
+.class-opiniones {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+  width: 100%;
+}
+*/
+
+
+
+.class-opiniones {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+   
+
+
+}
+
+
+.class-opiniones-item {
+/*  width: 100%;
+  max-width: 350px;
+  height: 20vh;*/
+  object-fit: cover;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin: 1%;
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .class-opiniones{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .class-opiniones{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .class-opiniones{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.class-index-footer-contenedor {
+  background-color: #0078d4;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  color: white;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding-left: 10%;
+}
+
+.principal {
+  width: 100%;
+  height:100%;
+}
+
+.class-index-iframe-contenedor {
+  width: 100vw;
+  height: 100vh;
+}
+
+.class-index-iframe-contenedor iframe{
+  width: 100%;
+  height: 100%;
+  scroll-behavior: auto;
+}
+
+.inicio-body-contenedor {
+  background-color: white;
+
+}
+
+/* estilo para el contenedor en forma de flex wrap*/
+.class-productos-body-contenedor {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+ 
+
+}
+
+
+.class-productos-item {
+  /*border-style: solid;*/
+  border-radius: 10px;
+  border-collapse:separate;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.class-productos-item h3 {
+
+  margin: 0%;
+  text-align: center;
+}
+
+
+.class-productos-boton {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.class-productos-body-contenedor button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.class-productos-body-contenedor button:hover {
+  background-color:#0078d4
+}
+
+
+/* estilo para el tamaño de las imagenes, para que se vean todas iguales */
+.class-productos-body-contenedor img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  
+}
+
+
+.class-contacto {
+   background-color: white;  /*le doy un color de fondo */
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 16px;
+   max-width: 1400px;
+   margin: 0 auto;
+   padding: 20px 10px;
+}
+
+.class-contacto-formulario {
+  width: 50%; /* le doy el tamaño del formulario total*/
+  margin: 0 auto; /* le digo que los margenes sean automatico entonces queda en el centro */
+  border-radius: 5px; /* redondeo las esquinas del formulario */
+  background-color: #f2f2f2;  /*le doy un color de fondo */
+  padding: 20px; /* le doy un espacio entre el borde del formulario y el objeto dentro del formulario*/
+  justify-content: space-between;
+}
+
+.class-contacto-mapa {
+  width: 50%; /* le doy el tamaño del formulario total*/
+  height: 80%;
+  margin: 0 auto; /* le digo que los margenes sean automatico entonces queda en el centro */
+  border-radius: 5px; /* redondeo las esquinas del formulario */
+  background-color: #f2f2f2;  /*le doy un color de fondo */
+  padding: 20px; /* le doy un espacio entre el borde del formulario y el objeto dentro del formulario*/
+  position:relative;
+}
+
+.class-contacto-mapa iframe {
+  width: 100%;
+
+}
+
+
+.class-contacto-direccion-tabla {
+  text-align: left;
+}
+
+
+
+
+/*Estilo para todos los objetos de TEXTO donde puedo ingresar datos*/
+input[type=text], input[type=email], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; /* permito que haga resize del textarea */
+}
+
+/* Estilo para los botones del tipo SUBMIT en los formularios */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color:#0078d4
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.boton {
+
+}
+
+.boton:hover {
+
+}
+
+*/
